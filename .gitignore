@@ -31,4 +31,9 @@ php_info.php
 sites/all/themes/landing-integration-gradka/
 =======
 sites/default/files/css/
+<<<<<<< HEAD
+>>>>>>> expand gitignore
+=======
+sites/default/files/js/
+sites/all/themes/landing-integration-gradka
 >>>>>>> expand gitignore
