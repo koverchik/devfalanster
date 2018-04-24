@@ -387,8 +387,12 @@ function devel_menu_link_alter(&$item) {
 /**
  * Implements hook_translated_menu_item_alter().
  *
+<<<<<<< HEAD
  * Append dynamic querystring 'destination' or 'token' (csfr protection) to
  * several of our own menu items.
+=======
+ * Append dynamic querystring 'destination' to several of our own menu items.
+>>>>>>> expand gitignore
  */
 function devel_translated_menu_link_alter(&$item) {
   $need_destination = in_array($item['href'], devel_menu_need_destination());
