@@ -5,6 +5,7 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
+<<<<<<< HEAD
 *~
 \#*
 .idea
@@ -28,3 +29,6 @@ robots-old.txt
 
 php_info.php
 sites/all/themes/landing-integration-gradka/
+=======
+sites/default/files/css/
+>>>>>>> expand gitignore
