@@ -21,7 +21,11 @@
 		        box-shadow: 0 -1px 70px -5px rgba(0,0,0,0.42);
 		cursor: pointer;
 	}
-
+  .prefooter__left:active{
+    background-color: #fff;
+    color: #ff6600;
+    box-shadow: none;
+  }
 	.prefooter__heading {
 		float: right;
 		margin: 80px 205px 0 0;
@@ -46,7 +50,7 @@
 		height: 280px;
 		color: #333333;
 		font-family: 'PT Sans', Arial, sans-serif;
-		font-size: 17px;
+		font-size: 18px;
 		background-color: #f5f5f5;
 	}
 
@@ -78,11 +82,11 @@
 		margin: 31px 0 0 0;
 	}
 	.region-bottom{
-		height: 200px;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		margin-top: -17px;
+    height: 165px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
 	}
 	.footer__menu {
 		padding: 0;
@@ -99,10 +103,16 @@
 		font-size: 18px;
 		list-style-type: none;
 	}
+	.footer__menu-item:hover{
+		font-size: 20px;
+		color: #ff6600;
+		transition: ease-in-out 0.2s;
+	}
 
 	.footer__menu-link {
 		color: #ffffff;
 		text-decoration: none;
+
 	}
   .menu .menu__item{
     list-style-type: none;
