@@ -67,10 +67,14 @@ a.krumo-name {
   line-height:12px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 a.krumo-name span.krumo-big {
 =======
 a.krumo-name big {
 >>>>>>> expand gitignore
+=======
+a.krumo-name big {
+>>>>>>> 2ca501fcbf1b3439fcb7ca0488bab65ea58300db
   font: bold 16pt Georgia;
   line-height: 10px;
   position:relative;
@@ -78,10 +82,14 @@ a.krumo-name big {
   left:-2px;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 * html a.krumo-name span.krumo-big {
 =======
 * html a.krumo-name big {
 >>>>>>> expand gitignore
+=======
+* html a.krumo-name big {
+>>>>>>> 2ca501fcbf1b3439fcb7ca0488bab65ea58300db
   font: bold 15pt Georgia;
   float:left;
   top: -5px;

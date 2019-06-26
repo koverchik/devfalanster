@@ -32,10 +32,14 @@ Drupal.behaviors.devel = {
     $('.krumo-child > div:first-child', context).once('krumo_path',
     function() {
 <<<<<<< HEAD:sites/all/modules/devel/devel_krumo.js
+<<<<<<< HEAD:sites/all/modules/devel/devel_krumo.js
       $(this).dblclick(
 =======
       $('.krumo-child > div:first-child', context).dblclick(
 >>>>>>> expand gitignore:sites/all/modules/devel/devel_krumo_path.js
+=======
+      $('.krumo-child > div:first-child', context).dblclick(
+>>>>>>> 2ca501fcbf1b3439fcb7ca0488bab65ea58300db:sites/all/modules/devel/devel_krumo_path.js
       function(e) {
         if ($(this).find('> .krumo-php-path').length > 0) {
           // Remove path if shown.

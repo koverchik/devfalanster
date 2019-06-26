@@ -8,6 +8,7 @@ files[] = devel.test
 files[] = devel.mail.inc
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ; Information added by Drupal.org packaging script on 2019-02-22
 version = "7.x-1.7"
 core = "7.x"
@@ -20,3 +21,10 @@ core = "7.x"
 project = "devel"
 datestamp = "1524009787"
 >>>>>>> expand gitignore
+=======
+; Information added by Drupal.org packaging script on 2018-04-18
+version = "7.x-1.6"
+core = "7.x"
+project = "devel"
+datestamp = "1524009787"
+>>>>>>> 2ca501fcbf1b3439fcb7ca0488bab65ea58300db

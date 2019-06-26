@@ -392,7 +392,10 @@ function devel_menu_link_alter(&$item) {
  * several of our own menu items.
 =======
  * Append dynamic querystring 'destination' to several of our own menu items.
+<<<<<<< HEAD
 >>>>>>> expand gitignore
+=======
+>>>>>>> 2ca501fcbf1b3439fcb7ca0488bab65ea58300db
  */
 function devel_translated_menu_link_alter(&$item) {
   $need_destination = in_array($item['href'], devel_menu_need_destination());
