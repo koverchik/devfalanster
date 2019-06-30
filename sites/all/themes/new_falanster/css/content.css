@@ -1,3 +1,43 @@
+	.login_admin_panel{
+		display: flex;
+		flex-direction: column;
+	}
+	.login_admin_panel label{
+	margin-bottom: 40px;
+	color: #ff6600;
+	font-size: 18px;
+	}
+	.description{
+		margin-bottom: 20px;
+	}
+
+.banner_login_admin_panel{
+	position: relative;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: calc(125vh - 66px);
+	background: black;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	-webkit-box-pack: center;
+	}
+
+#edit-submit{
+		padding: 9px 25px 9px 25px;
+    color: #333333;
+    font-family: 'Ubuntu',Arial,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #333333;
+    border-radius: 4px;
+}
+
 .banner {
 	font-family: 'Ubuntu', Arial, sans-serif;
 }
@@ -95,9 +135,6 @@
 	        transform: translate(-50%, 0);
 }
 
-.banner__text a{
-color: #ff6600;
-}
 
 .banner__heading {
 	margin: 0;
