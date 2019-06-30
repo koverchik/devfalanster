@@ -95,6 +95,10 @@
 	        transform: translate(-50%, 0);
 }
 
+.banner__text a{
+color: #ff6600;
+}
+
 .banner__heading {
 	margin: 0;
 	font-size: 60px;
